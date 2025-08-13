@@ -1,0 +1,16 @@
+{
+  "actions": {
+    "block_ip": {
+      "description": "Block a malicious IP",
+      "params": ["ip"]
+    },
+    "whois": {
+      "description": "Get WHOIS info",
+      "params": ["domain"]
+    },
+    "create_jira_ticket": {
+      "description": "Crée un ticket dans Jira avec un résumé et une description",
+      "params": ["summary", "description"]
+    }
+  }
+}
